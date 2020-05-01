@@ -15,11 +15,12 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
 		.package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "4.8.2")),
-		.package(url: "https://github.com/evgenyneu/keychain-swift.git", .upToNextMajor(from: "14.0.0")),
-		.package(url: "https://github.com/martyu/mobile-buy-sdk-ios.git", .upToNextMajor(from: "3.1.5")),
+		.package(name: "KeychainSwift", url: "https://github.com/evgenyneu/keychain-swift.git", from: "14.0.0"),
+		.package(url: "https://github.com/martyu/mobile-buy-sdk-ios.git", .upToNextMajor(from: "4.0.2")),
 		.package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "8.0.1")),
 		.package(url: "https://github.com/AliSoftware/OHHTTPStubs.git", .upToNextMajor(from: "9.0.0")),
-		.package(url: "https://github.com/Quick/Quick.git", .upToNextMajor(from: "2.0.0"))
+		.package(url: "https://github.com/Quick/Quick.git", .upToNextMajor(from: "2.0.0")),
+		.package(url: "https://github.com/martyu/shopapp-ios.git", .upToNextMajor(from: "1.0.7"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -29,9 +30,9 @@ let package = Package(
             dependencies: [
 				"Alamofire",
 				"KeychainSwift",
-				"Mobile-Buy-SDK",
+				.product(name: "mobile-buy-sdk-ios", package: "mobile-buy-sdk-ios"),
 				"Nimble",
-				"OHHTTPStubsSwift",
+				.product(name: "OHHTTPStubsSwift", package: "OHHTTPStubs"),
 				"Quick"
 		]),
         .testTarget(

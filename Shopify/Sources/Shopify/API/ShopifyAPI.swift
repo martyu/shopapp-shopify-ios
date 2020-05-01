@@ -7,7 +7,7 @@
 //
 
 import KeychainSwift
-import MobileBuySDK
+import mobile_buy_sdk_ios
 import ShopApp_Gateway
 
 typealias PaymentByApplePayResponse = (order: Order?, error: RepoError?)

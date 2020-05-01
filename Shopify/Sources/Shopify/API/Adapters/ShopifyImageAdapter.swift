@@ -6,7 +6,7 @@
 //  Copyright © 2017 Evgeniy Antonov. All rights reserved.
 //
 
-import MobileBuySDK
+import mobile_buy_sdk_ios
 import ShopApp_Gateway
 
 struct ShopifyImageAdapter {
