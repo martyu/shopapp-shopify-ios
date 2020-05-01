@@ -71,6 +71,7 @@
 		61945C4320849D47002E793E /* AdminAPIMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61945C4220849D47002E793E /* AdminAPIMock.swift */; };
 		61945C472084DDAD002E793E /* CardClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61945C462084DDAD002E793E /* CardClientMock.swift */; };
 		61945C492084DE20002E793E /* TestTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61945C482084DE20002E793E /* TestTask.swift */; };
+		76162EF1245BC09700C07B5D /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76162EF0245BC09700C07B5D /* Package.swift */; };
 		8E283D3220400BED0041E432 /* Shopify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED91F9F20344DDE00E9692A /* Shopify.framework */; };
 		8E3265E02037239A00B3C50E /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E3265DF2037239A00B3C50E /* Countries.json */; };
 		8ED91FA420344DDE00E9692A /* Shopify.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED91FA220344DDE00E9692A /* Shopify.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -166,6 +167,7 @@
 		61945C4220849D47002E793E /* AdminAPIMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAPIMock.swift; sourceTree = "<group>"; };
 		61945C462084DDAD002E793E /* CardClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardClientMock.swift; sourceTree = "<group>"; };
 		61945C482084DE20002E793E /* TestTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTask.swift; sourceTree = "<group>"; };
+		76162EF0245BC09700C07B5D /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		89727AFB067484CDB69B4F06 /* Pods-Shopify-ShopifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopify-ShopifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shopify-ShopifyTests/Pods-Shopify-ShopifyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E283D2D20400BED0041E432 /* ShopifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E283D3120400BED0041E432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -393,6 +395,7 @@
 		8ED91FA120344DDE00E9692A /* Shopify */ = {
 			isa = PBXGroup;
 			children = (
+				76162EF0245BC09700C07B5D /* Package.swift */,
 				8ED9200E2035A43300E9692A /* API */,
 				8E3265DF2037239A00B3C50E /* Countries.json */,
 				8ED91FA220344DDE00E9692A /* Shopify.h */,
@@ -711,6 +714,7 @@
 				0B09558A2068F9A600CABE29 /* ShopifyCustomerAdapter.swift in Sources */,
 				0B0955892068F9A600CABE29 /* ShopifyShopAdapter.swift in Sources */,
 				0B0955862068F9A600CABE29 /* ShopifyOrderItemAdapter.swift in Sources */,
+				76162EF1245BC09700C07B5D /* Package.swift in Sources */,
 				0B0955872068F9A600CABE29 /* ShopifyPolicyAdapter.swift in Sources */,
 				8ED920482035AA9D00E9692A /* SessionData.swift in Sources */,
 				0B09557A2068F9A600CABE29 /* ShopifyAddressAdapter.swift in Sources */,
